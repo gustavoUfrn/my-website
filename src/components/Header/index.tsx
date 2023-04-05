@@ -8,10 +8,10 @@ export function Header() {
                 <a href="#">{logo}</a>
 
                 <nav>
-                    <p>Home</p>
-                    <p>Sobre</p>
-                    <p>Projetos</p>
-                    <p>Contato</p>
+                    <a>Home</a>
+                    <a>Sobre</a>
+                    <a>Projetos</a>
+                    <a>Contato</a>
                 </nav>
             </HeaderContainer>
         </>
