@@ -1,17 +1,19 @@
-import { HeaderContainer } from "./styles";
+import { HeaderContainer, NavLogo } from "./styles";
 
 export function Header() {
+
     const logo = "<Gustavo />"
+
     return (
         <>
             <HeaderContainer>
-                <a href="#">{logo}</a>
+                <NavLogo href="#">{logo}</NavLogo>
 
                 <nav>
-                    <a>Home</a>
-                    <a>Sobre</a>
-                    <a>Projetos</a>
-                    <a>Contato</a>
+                    <a href="#">Home</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Projetos</a>
+                    <a href="#">Contato</a>
                 </nav>
             </HeaderContainer>
         </>

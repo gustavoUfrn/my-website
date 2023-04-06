@@ -13,13 +13,8 @@ export const GlobalStyle = createGlobalStyle`
 
     body, input, textarea, button {
         font-family: 'montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 1rem;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
+        font-weight: 400;
+        font-size: 1.2rem;
     }
 `
 
