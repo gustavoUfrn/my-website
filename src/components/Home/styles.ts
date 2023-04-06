@@ -8,7 +8,7 @@ export const HomeContainer = styled.div`
 
     color: #F1ECE1;
 
-    div p {
+    p {
         font-size: 2rem;
         padding: 1rem 0;
     }

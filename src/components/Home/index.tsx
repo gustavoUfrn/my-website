@@ -11,12 +11,8 @@ export function Home() {
                 </HomeBg>
                 <HomeInfo>
                     <HomeContainer>
-                        <div>
-                            <img src={homePhoto}></img>
-                        </div>
-                        <div>
-                            <p>Hi, my name is gustavo alessandro!</p>
-                        </div>
+                        <img src={homePhoto}></img>
+                        <p>Hi, my name is gustavo Alessandro!</p>
                     </HomeContainer>
                 </HomeInfo>
             </div>
