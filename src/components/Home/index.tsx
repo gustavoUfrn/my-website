@@ -12,7 +12,8 @@ export function Home() {
                 <HomeInfo>
                     <HomeContainer>
                         <img src={homePhoto}></img>
-                        <p>Hi, my name is gustavo Alessandro!</p>
+                            <h1>Hi, nice to meet you!</h1>
+                            <p>I'm Gustavo Alessandro!</p>
                     </HomeContainer>
                 </HomeInfo>
             </div>

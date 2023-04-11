@@ -5,12 +5,12 @@ export const HomeContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     color: #F1ECE1;
+    gap: 1.2rem 0;
 
     p {
-        font-size: 2rem;
-        padding: 1rem 0;
+        font-size: 1.6rem;
+        border-bottom: 1px solid #F1ECE1;
     }
 `
 

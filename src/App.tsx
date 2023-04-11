@@ -1,7 +1,8 @@
 import { Header } from "./components/Header"
 import { GlobalStyle } from "./styles/global"
-import bgImg from "../src/assets/background-2.png"
 import { Home } from "./components/Home"
+import { About } from "./components/About"
+import { Footer } from "./components/Footer"
 
 
 export function App() {
@@ -10,6 +11,8 @@ export function App() {
     <>
       <Header />
       <Home />
+      <About />
+      <Footer />
       <GlobalStyle />
     </>
   )

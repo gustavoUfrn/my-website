@@ -11,6 +11,11 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
     }
 
+    a {
+        text-decoration: none;
+        color: #F1ECE1;
+    }
+
     body, input, textarea, button {
         font-family: 'montserrat', sans-serif;
         font-weight: 400;

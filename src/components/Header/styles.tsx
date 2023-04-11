@@ -8,7 +8,7 @@ export const HeaderContainer = styled.header`
     height: 80px;
     background-color: #3A353F;
     color: #F1ECE1;
-    padding: 0 6rem;
+    padding: 0 5rem;
     
     display: flex;
     align-items: center;
@@ -18,15 +18,8 @@ export const HeaderContainer = styled.header`
         display: flex;
         gap: 0.8rem;
     }
-
-    a {
-        text-decoration: none;
-        color: #F1ECE1;
-    }
 `
 
 export const NavLogo = styled.a`
-    text-decoration: none;
-    color: #F1ECE1;
     font-weight: 700;
 `
